@@ -9,7 +9,7 @@ function Header(){
           <ul>
             <li>
               <li>
-                <a href="#">HOME</a>
+                <a href="#">PAGINA INICIAL</a>
               </li>
 
               <li>
