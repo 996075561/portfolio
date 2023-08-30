@@ -1,20 +1,58 @@
-header{
-    background-color: pink;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 10vw;
-    align-items: center;
+* {
+    margin: 0;
+    padding: 0;
 }
+header{
+  background:#ffc0b0;
+  border-bottom-style:solid;color:#fa9a82;
+  height: 200px;
+  border-width:5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 50px;
+}
+.logo{
+  background: url("logoP.png");
+  padding: 50px;
+  width: 100px;
+  margin-right: 20px;
+}
+.nome{
+  width:500px;
+  height:600px;
+  margin-top:10px;
+  margin-left:690px;
+}
+.navbar{
+  text-align:center;
+  margin-top:-90px;
 
+}
+nav ul li a {
+  color: #fa9a82;
+  font-size:30px;
+  text-decoration: none;
+  
+}
 header nav ul li a{
-    text-decoration: none;
-    padding: 15px;
-    border: 1px solid hotpink;
-    color: white;
+  text-decoration: none;
+  padding: 15px;
+  border: 1px solid brown;
+  color: brown;
+  align-items: center;
 }
 header nav ul{
-    display: flex;
-    list-style: none;
-    gap: 15px;
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+header nav ul li a:hover{
+  cursor: pointer;
+  top:-10px;box-shadow:0 5px 5px #f06643;
+  background-color:#f06643;
 }
 
+footer br {
+  font-size:25px;
+}

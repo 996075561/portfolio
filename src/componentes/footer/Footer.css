@@ -1,9 +1,40 @@
-footer{
-    padding: 50px;
-    background-color:#ED419A;
-}
-img{
-
-    width: 300px;
-    height: auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+#footer{
+    background:#ffc0b0;
+    border-top-style:solid;color:#fa9a82;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding:50px;
+  }
+  .letra{
+    font-weight:bold;
+  }
+   #footer p{
+    font-size:20px;
+    color:brown;
+    display:flex;
+    max-width: 300px;
+    font-family: 'Lobster', cursive;
+  }
+  
+  #produto p{
+    margin-left:80px;
+    padding:4px;
+  }
+  
+  #campanha p{
+    margin-left:80px;
+    padding:4px;
+  }
+  
+  #help p{
+    margin-left:80px;
+    padding:5px;
+  }
+  #community p{
+    margin-left:80px;
+    padding:5px;
+  }
+  
+  

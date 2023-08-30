@@ -1,33 +1,32 @@
 import './Header.css'
-function Header(){
-    return(
-        <header>
-          <div>
-            logo
-          </div>
-        <nav>
-          <ul>
-            <li>
-              <li>
-                <a href="#">PAGINA INICIAL</a>
-              </li>
+export default function Header(){
+  return(
+    // <header>
+    //   
+    //   <div className='home'>
+    //   <nav className='navbar'>
+    //     <ul>
 
-              <li>
-                <a href="#">SOBRE</a>
-              </li>
+    //     <li>
+    //       <a href="#">Home</a>
+    //     </li>
 
-              <li>
-                <a href="#">NOTICIAS</a>
-              </li>
-
-              <li>
-                <a href="#">CONTATO</a>
-              </li>
-
-             </li>
-            </ul>
-          </nav>
+    //     </ul>
+    //  </nav>
+    //  </div>
+    // </header>
+    <header>
+            <div className="logo"></div>
+            
+           <nav>
+           <ul>
+            <li><a href='#'>Pagina Inicial</a></li>
+            <li><a href='#'>Sobre</a></li>
+            <li><a href='#'>Noticia</a></li>
+            <li><a href='#'>Contato</a></li>
+           </ul>
+           </nav>
         </header>
-    )
+  )
 }
-export default Header
+ 
