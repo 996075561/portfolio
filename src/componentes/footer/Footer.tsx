@@ -10,7 +10,7 @@ export default function Footer() {
         <footer id="footer">
         
           
-          <div id='produto'>
+          <div id='quem'>
            <p className='letra'>QUEM SOU EU?</p>
             <p>Meu nome é Luana Trindade</p>
             <p>Nascida no dia 28/04/2005</p>
@@ -20,15 +20,8 @@ export default function Footer() {
            
           </div>
 
-          <div id='campanha'>
-           <p className='letra'>HOBBIES</p>
-            <p>Pescar</p>
-            <p>Maquear</p>
-            <p>Brincar com os cachorros</p>
-            <p>Sair</p>
-          </div>
 
-          <div id='help'>
+          <div id='meta'>
            <p className='letra'>META</p>
             <p>Formar em Designer Web</p>
             <p>Morar em Capo Grande-MS ou Maringa-PR</p>
@@ -37,7 +30,7 @@ export default function Footer() {
             <p>Conhecer Mexico e Noruega</p>
           </div>
 
-          <div id='community'>
+          <div id='lema'>
            <p className='letra'>LEMA</p>
             <p>O que for pra ser sera no tempo certo</p>
           

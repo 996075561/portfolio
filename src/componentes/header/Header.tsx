@@ -16,14 +16,16 @@ export default function Header(){
     //  </div>
     // </header>
     <header>
-            <div className="logo"></div>
+            <div className="logo">
+              <img src="logo.png" alt="" />
+            </div>
             
            <nav>
            <ul>
-            <li><a href='#'>Pagina Inicial</a></li>
+           
             <li><a href='#'>Sobre</a></li>
-            <li><a href='#'>Noticia</a></li>
             <li><a href='#'>Contato</a></li>
+            <li><a href='#'>Mais</a></li>
            </ul>
            </nav>
         </header>

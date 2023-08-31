@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Phudu:wght@300&display=swap');
 #footer{
     background:#ffc0b0;
     border-top-style:solid;color:#fa9a82;
@@ -16,23 +16,20 @@
     display:flex;
     max-width: 300px;
     font-family: 'Lobster', cursive;
+    font-family: 'Phudu', cursive;
+   
   }
   
-  #produto p{
-    margin-left:80px;
+  #quem p{
+    margin-left:400px;
     padding:4px;
   }
   
-  #campanha p{
-    margin-left:80px;
-    padding:4px;
-  }
-  
-  #help p{
+  #meta p{
     margin-left:80px;
     padding:5px;
   }
-  #community p{
+  #lema p{
     margin-left:80px;
     padding:5px;
   }
