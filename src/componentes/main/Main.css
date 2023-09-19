@@ -1,12 +1,30 @@
-main{
-    height: 70vh;
+
+
+.content-main{
+    
+    padding:10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 10px;
 }
 
-img{
-    max-width:600px;
-    max-height:600px;
-    margin-left:600px ;
-   
+.barrapesquisa{
+    height: 30px;
+    border: 1px solid #bebebe;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 1.4rem;
 }
+.barrapesquisa:focus-visible{
+    outline: 1px solid rgba(28, 28, 191, 0.57);
+}
+.pesquisa{
+    padding: 50px;
+    font-size:20px;
+    
+}
+
 
  

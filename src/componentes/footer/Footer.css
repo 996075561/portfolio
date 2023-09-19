@@ -17,11 +17,12 @@
     max-width: 300px;
     font-family: 'Lobster', cursive;
     font-family: 'Phudu', cursive;
-   
+    
   }
   
   #quem p{
-    margin-left:400px;
+
+    margin-left:50px;
     padding:4px;
   }
   
@@ -33,5 +34,15 @@
     margin-left:80px;
     padding:5px;
   }
+
+.quadrado{
+  padding: 10px;
+  width:400px;
+  display: flex;
+  
+}
+.quadrado img{
+  width: 100%;
+}
   
   

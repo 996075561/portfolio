@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Phudu:wght@300&display=swap');
+.projeto_content{
+    padding: 50px;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+    
+}
+.foto_projeto{
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+}
+.foto_projeto>img{
+    width: 100%;
+}
+.cargaHoraria{
+    text-align: justify;
+}

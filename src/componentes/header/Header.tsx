@@ -1,20 +1,7 @@
 import './Header.css'
 export default function Header(){
   return(
-    // <header>
-    //   
-    //   <div className='home'>
-    //   <nav className='navbar'>
-    //     <ul>
-
-    //     <li>
-    //       <a href="#">Home</a>
-    //     </li>
-
-    //     </ul>
-    //  </nav>
-    //  </div>
-    // </header>
+   
     <header>
             <div className="logo">
               <img src="logo.png" alt="" />
