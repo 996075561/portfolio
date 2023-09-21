@@ -3,8 +3,7 @@
     padding: 0;
 }
 header{
-  background:#ffc0b0;
-  border-bottom-style:solid;color:#fa9a82;
+  background:#641717;
   min-height: 200px;
   border-width:5px;
   display: flex;
@@ -14,7 +13,7 @@ header{
 }
 .logo{
   padding: 10px;
-  width: 400px;
+  width: 500px;
   display: flex;
 }
 .logo img{
@@ -22,19 +21,17 @@ header{
 }
 .navbar{
   text-align:center;
-
 }
 nav ul li a {
-  color: #fa9a82;
-  font-size:30px;
+  font-size:25px;
   text-decoration: none;
   
 }
 header nav ul li a{
   text-decoration: none;
   padding: 15px;
-  border: 1px solid brown;
-  color: brown;
+  border: 1px solid #FFC0B0;
+  color: #FFC0B0;
   align-items: center;
 }
 header nav ul{
@@ -44,9 +41,9 @@ header nav ul{
 }
 header nav ul li a:hover{
   cursor: pointer;
-  /* top:-10px; */
-  box-shadow:0 5px 5px #f06643;
-  background-color:#f06643;
+  box-shadow:0 5px 5px #590f0f;
+  background-color:#590f0f;
+  padding: 13px;
 }
 
 footer br {

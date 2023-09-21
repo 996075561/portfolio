@@ -10,29 +10,29 @@ export default function Footer() {
 
         <footer id="footer">
         <div className='quadrado'>
-           <img src="eu.png"/> 
+           <img src="luana.png"/> 
             </div>
           <div id='quem'>
            <p className='letra'>QUEM SOU EU?</p>
-            <p>Meu nome é Luana Trindade</p>
-            <p>Nascida no dia 28/04/2005</p>
-            <p>Filha da Luciene Bento e Luciano Trindade</p>
-            <p>Filha unica</p>
-           
+            <p>- Nome: Luana da Silva Trindade.</p>
+            <p>- Nascida em: Campo Grande-MS</p>
+            <p>- Signo: Touro</p>
+            <p>- Aniversário: 28/04/2005</p>
+            <p>- Filha unica</p>
+
           </div>
 
 
           <div id='meta'>
-           <p className='letra'>META</p>
-            <p>Formar em Designer Web</p>
-            <p>Morar em Campo Grande-MS ou Maringa-PR</p>
-            <p>Casar</p>
-            <p>Conhecer o Mexico e a Noruega</p>
+           <p className='letra'>SONHOS</p>
+            <p>- Formar em Estética ou Designer Web</p>
+            <p>- Ter meu próprio negócio</p>
+            <p>- Conhecer Noruega e México</p>
           </div>
 
           <div id='lema'>
            <p className='letra'>LEMA</p>
-            <p>O que for pra ser, será no tempo certo</p>
+            <p>“A luz que me guia é mais forte que os olhos que me cercam”</p>
           
           </div>
          

@@ -15,21 +15,35 @@ export default function Main(){
         {
             id:1,
             nome:"Inclusao digital",
-            cargaHoraria:"300 Horas",
-            imagem:"/curso.jpg"
+            cargaHoraria:"Carga Horária:300Hrs",
+            imagem:"/inclusao.png"
         },
         {
             id:2,
-            nome:"Investigação do método de Integração de Monte Carlo para dados discreto",
-            cargaHoraria:"250 Horas",
-            imagem:"/curso.jpg"
+            nome:"Crescendo em Tempo de Crise - Tigres Asiáticos",
+            cargaHoraria:"Carga Horária:250Hrs",
+            imagem:"/fecinavi.png"
         },
         {
             id:3,
-            nome:"Crescendo em Tempo de Crise - Tigres Asiáticos",
-            cargaHoraria:"180 Horas",
-            imagem:"/curso.jpg"
+            nome:"Xadrez",
+            cargaHoraria:"Carga Horária:180Hrs",
+            imagem:"/xadrez.png"
+        },
+        {
+            id:4,
+            nome:"PodCast: Pode isso no IF?",
+            cargaHoraria:"Carga Horária:Em andamento",
+            imagem:"/podcast.png"
+        },
+       
+        {
+            id:6,
+            nome:"Foto Preferida",
+            cargaHoraria: "Formatura da Guarda Mirim",
+            imagem:"/viagem.png"
         }
+        
 
     ]
     //A função recebe um atributo chamado e de "event"
@@ -41,10 +55,10 @@ export default function Main(){
         <>
             <div className="pesquisa">
                 
-                <p>Buscar Projetos</p>
+                <p>BUSCAR SOBRE LUANA:</p>
                 <input className='barrapesquisa' type="text" onChange={mudaTexto} />
                 <div>
-                    <p className='texto_digitado'>pesquisa: {texto}</p>
+                    {/* <p className='texto_digitado'>{texto}</p> */}
                 </div>
             </div>
             <main className="content-main">

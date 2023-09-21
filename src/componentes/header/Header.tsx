@@ -10,9 +10,9 @@ export default function Header(){
            <nav>
            <ul>
            
-            <li><a href='#'>Sobre</a></li>
-            <li><a href='#'>Contato</a></li>
-            <li><a href='#'>Mais</a></li>
+            <li><a href='#'>SOBRE</a></li>
+            <li><a href='#'>CONTATO</a></li>
+            <li><a href='#'>MAIS</a></li>
            </ul>
            </nav>
         </header>

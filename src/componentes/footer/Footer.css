@@ -1,45 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Phudu:wght@300&display=swap');
 #footer{
-    background:#ffc0b0;
-    border-top-style:solid;color:#fa9a82;
+    background:#641717;
     width: 100%;
     box-sizing: border-box;
     display: flex;
-    padding:50px;
+    padding:92px;
   }
   .letra{
     font-weight:bold;
   }
    #footer p{
     font-size:20px;
-    color:brown;
+    color:#FFC0B0;
     display:flex;
     max-width: 300px;
     font-family: 'Lobster', cursive;
     font-family: 'Phudu', cursive;
-    
+    font-weight: bold;
   }
-  
+ 
   #quem p{
-
-    margin-left:50px;
-    padding:4px;
+    margin-left:400px;
   }
   
   #meta p{
-    margin-left:80px;
-    padding:5px;
+    margin-left:100px;
   }
   #lema p{
-    margin-left:80px;
-    padding:5px;
+    margin-left:50px;
   }
 
 .quadrado{
-  padding: 10px;
-  width:400px;
+  width:250px;
   display: flex;
-  
+  margin: 0px 0px 0px 0px;
+  position: absolute;
 }
 .quadrado img{
   width: 100%;
