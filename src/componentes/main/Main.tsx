@@ -37,12 +37,6 @@ export default function Main(){
             imagem:"/podcast.png"
         },
        
-        {
-            id:6,
-            nome:"Foto Preferida",
-            cargaHoraria: "Formatura da Guarda Mirim",
-            imagem:"/viagem.png"
-        }
         
 
     ]
