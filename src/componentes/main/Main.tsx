@@ -36,7 +36,55 @@ export default function Main(){
             cargaHoraria:"Carga Horária:Em andamento",
             imagem:"/podcast.png"
         },
-       
+        {
+            id:5,
+            nome:"Foto preferida",
+            cargaHoraria:"Viagem para Foz do Iguaçu",
+            imagem:"/viagem.png"
+        },
+        {
+            id:6,
+            nome:"Hobby",
+            cargaHoraria:"Sinuca",
+            imagem:"/sinuca.png"
+        },
+        {
+            id:7,
+            nome:"Hobby",
+            cargaHoraria:"Pescaria",
+            imagem:"/pescaria.png"
+        },
+        {
+            id:8,
+            nome:"Dogs",
+            cargaHoraria:"Ayla e Kyara",
+            imagem:"/Dog.png"
+        },
+        {
+            id:9,
+            nome:"Relacionamento",
+            cargaHoraria:"3 anos",
+            imagem:"/namorado.png"
+        },
+        {
+            id:10,
+            nome:"Sonho realizado",
+            cargaHoraria:"Primeira moto 0Km",
+            imagem:"moto.png"
+        },
+        {
+            id:11,
+            nome:"Familia",
+            cargaHoraria:"Mãe e Pai",
+            imagem:"familia.png"
+        },
+        {
+            id:12,
+            nome:"Série preferida",
+            cargaHoraria:"The Wither",
+            imagem:"/serie.png"
+        }
+
         
 
     ]
