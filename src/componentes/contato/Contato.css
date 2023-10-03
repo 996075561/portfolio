@@ -3,6 +3,10 @@ form {
     font-size: 15px;
     background-color: #641717;
     max-width: 500px;
+    margin:50px;
+    padding:30px;
+    height: 200px;
+    width:200px;
 }
 
 h1 {
