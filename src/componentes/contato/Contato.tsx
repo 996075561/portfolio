@@ -7,17 +7,19 @@ function Contato(){
   <div>
     <form name="contato-container">
 
-        <h1>ENTRE EM CONTATO</h1>
-
-        <input type="text" id="nomeid" placeholder="fulano" name="nome" />
-        <label className="nome">Nome</label>
-
+        <h5>ENTRE EM CONTATO</h5>
+        <label className="nome">NOME</label>
+        <input type="text" id="nomeid" placeholder="Ex:Luana" name="nome" />
+       
+        <label className="fone">TELEFONE</label>
         <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
-        <label className="fone">Fone</label>
-
+        
+        <label className="email">EMAIL</label>
         <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
-        <label className="email">Email</label>
-
+      
+        <label className="email">ASSUNTO</label>
+        <input type="email" id="emailid" placeholder="Assunto" name="email" />
+       
         <input type="submit" className="enviar"/>
     </form> 
   </div>

@@ -3,16 +3,20 @@ form {
     font-size: 15px;
     background-color: #641717;
     max-width: 500px;
-    margin:50px;
-    padding:30px;
-    height: 200px;
+    margin:80px;
+    padding:80px;
     width:200px;
 }
 
-h1 {
+contato-container,h5{
     margin-bottom: 20px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     color: #FFC0B0;
+    font-size: 15px;
+ 
+}
+contato-container{
+   align-items: center;
  
 }
 
@@ -20,22 +24,22 @@ input, textarea {
     width: 200px;
     padding: 10px;
     color: black;
-    margin-left: 20px;
-    margin-top: 10px;
+    /* margin-left: 20px; */
+    margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid;
 }
 
 input:hover, textarea:hover, input:focus, textarea:focus {
     border-color: #000066;
-    box-shadow: 5px 0px 9px white;
+    /* box-shadow: 5px 0px 9px white; */
     background-color: #FFC0B0;
     color: black;
     font-weight: bold;
 }
 
 .enviar {
-    background-color: #66FFFF;
+    /* background-color: #66FFFF; */
     height: 40px;
     width: 100px;
     font-weight: bold;
@@ -44,6 +48,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     -moz-border-radius: 5px;
     border: 1px solid;
     color: black;
+    margin-top: 20px;
 }
 
 textarea {
@@ -54,7 +59,7 @@ textarea {
 }
 
 form label {
-    margin-left: 20px;
-    color: #FFFFFF;
+    /* margin-top: 20px; */
+    color:#FFC0B0;
     font-weight: bold;
 }
