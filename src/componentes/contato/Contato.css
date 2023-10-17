@@ -10,7 +10,6 @@ form {
 
 contato-container,h5{
     margin-bottom: 20px;
-    /* margin-left: 20px; */
     color: #FFC0B0;
     font-size: 15px;
  
@@ -24,7 +23,7 @@ input, textarea {
     width: 200px;
     padding: 10px;
     color: black;
-    /* margin-left: 20px; */
+    
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid;
@@ -62,4 +61,31 @@ form label {
     /* margin-top: 20px; */
     color:#FFC0B0;
     font-weight: bold;
+}
+.redes{
+    width:550px;
+    height: 360px;
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    color: #641717;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:80px;
+    margin:80px;
+    border: #641717 solid 15px;
+    font-weight: bold;
+   
+}
+.redes>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contato{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFC0B0;
+    align-items: center;
+   
+    
 }

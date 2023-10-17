@@ -23,6 +23,24 @@ function Contato(){
         <input type="submit" className="enviar"/>
     </form> 
   </div>
+  <div className='redes'>
+    <div>
+      <img src="email.png" />
+      <p>luana.trindade@estudante.ifms.edu.br</p>
+    </div>
+    <div>
+      <img src="fecebook.png"/> 
+      <p>Luana Trindade</p>
+    </div>
+    <div>
+    <img src="whatsapp.png" /> 
+    <p>67 996075561</p>
+    </div>
+    <div>
+    <img src="instagram.png"/> 
+    <p>@luana_trindade.lua</p>
+    </div>
+  </div>
 </main>
   );
 }
