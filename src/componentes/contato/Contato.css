@@ -23,7 +23,6 @@ input, textarea {
     width: 200px;
     padding: 10px;
     color: black;
-    
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid;
@@ -63,18 +62,18 @@ form label {
     font-weight: bold;
 }
 .redes{
-    width:550px;
-    height: 360px;
+    width:1000px;
+    height:476px;
     font-family: Verdana,Tahoma,sans-serif;
     font-size: 15px;
     color: #641717;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding:80px;
+    padding:10px;
     margin:80px;
     border: #641717 solid 15px;
     font-weight: bold;
-   
+    line-height: 55px;
 }
 .redes>div{
     display: flex;
@@ -85,7 +84,18 @@ form label {
     display: flex;
     justify-content: space-between;
     background-color: #FFC0B0;
-    align-items: center;
+    align-items: center;   
+}
+.pesquisas{
+    width:550px;
+    height: 365px;
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    color:#FFC0B0;
+    padding:80px;
+    margin:80px;
+    background-color: #641717;
+    font-weight: bold;
+    line-height: 60px;
    
-    
 }
