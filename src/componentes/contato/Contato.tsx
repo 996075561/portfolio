@@ -48,7 +48,7 @@ function Contato(){
   </div>
               <div className="pesquisas">
               <div>
-                    <p >TEXTO DIGITADO</p>
+                    <p>TEXTO DIGITADO</p>
                 </div>
                 <div>
                     <p className='texto_digitado'>NOME:{nome}</p>
